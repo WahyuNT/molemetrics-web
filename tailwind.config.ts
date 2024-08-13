@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import Navbar from "./components/NavbarComp";
 
 const config: Config = {
   content: [
@@ -8,10 +9,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary:"#6F66D9",
+        dark:"#010014",
+        light:"#E6E6F5",
+        navbar: "#0F172E",
+        sidebar: "#0F172E",
+     
       },
     },
   },
