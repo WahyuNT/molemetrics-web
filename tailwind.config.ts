@@ -16,7 +16,7 @@ const config: Config = {
         light:"#E6E6F5",
         navbar: "#0F172E",
         sidebar: "#0F172E",
-        
+        selectFill: "#1C2A51",
      
       },
     },
