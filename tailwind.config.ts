@@ -13,6 +13,7 @@ const config: Config = {
       colors: {
         primary:"#F1BB1C",
         primaryEnd:"#FF8D01",
+        background:"#0B111E",
         dark:"#010014",
         light:"#E6E6F5",
         navbar: "#0F172E",
@@ -20,10 +21,13 @@ const config: Config = {
         selectFill: "#1C2A51",
         match : "#1E2E5A",
         matchFill : "#1A2541",
+        blueSecondary: "#1C2A51",
+        blueThird: "#1A2541",
      
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
 export default config;

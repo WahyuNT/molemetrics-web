@@ -7,7 +7,7 @@
 
 @layer base {
   html {
-    background-color: theme('colors.dark');
+    background-color: theme('colors.background');
     font-family: 'Sansita', sans-serif;
     color: white;
   }
@@ -31,4 +31,11 @@
     background-image: linear-gradient(to bottom, #222733, #2D353F);
   }
 
+  .button-week-off {
+    background-color: #1A2440;
+  }
+
+  .card-bg {
+    background-image: linear-gradient(to bottom, #151E36, #1A2440);
+  }
 }
