@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import Navbar from "./components/NavbarComp";
+import { match } from "assert";
 
 const config: Config = {
   content: [
@@ -17,6 +18,7 @@ const config: Config = {
         navbar: "#0F172E",
         sidebar: "#0F172E",
         selectFill: "#1C2A51",
+        match : "#1E2E5A",
      
       },
     },
