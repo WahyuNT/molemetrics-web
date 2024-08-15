@@ -12,7 +12,7 @@ export default function Home() {
       <NavbarComp />
 
       <div className="pt-20 ">
-        <div className="mx-auto max-w-7xl flex flex-wrap">
+        <div className="mx-auto container flex flex-wrap ">
           <div className="w-9/12">
             <a
               href="#"
@@ -27,8 +27,8 @@ export default function Home() {
               </p>
             </a>
           </div>
-          <div className="w-3/12  h-screen fixed right-0 flex flex-col">
-            <div className="div  ">
+          <div className="w-3/12  h-screen fixed right-10  flex flex-col ">
+            <div className=" ">
               <div className="bg-navbar w-full rounded-lg p-4  ">
                 History
                 <form className="max-w-sm mx-auto mt-3">
@@ -76,7 +76,7 @@ export default function Home() {
                     </form>
                   </div>
                 </div>
-                <div className="h-80 overflow-auto">
+                <div className="h-[65vh] overflow-auto">
                   <div className="py-3 flex items-center text-sm text-white before:flex-1 before:border-t before:border-gray-200 before:me-2 after:flex-1 after:border-t after:border-gray-200 after:ms-2 ">
                     Jumat, 9 Agustus 2024
                   </div>
@@ -108,13 +108,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="  ">
+            {/* <div className="  ">
               <img
                 className="rounded-lg w-full p-3"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQRguMvR6_wQDV9HotuzETswZkWCHWGh3Lg&s"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -15,5 +15,7 @@
 
 
 @layer utilities {
-
+.container{
+  max-width: 90rem 
+}
 }
