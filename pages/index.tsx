@@ -14,18 +14,20 @@ export default function Home() {
       <div className="pt-20 ">
         <div className="mx-auto container flex flex-wrap ">
           <div className="w-9/12">
-            <a
-              href="#"
-              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noteworthy technology acquisitions 2021
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </a>
+            <div className="flex justify-center">
+              <div className=" w-2/12 bg-color-switch-outside rounded-full justify-between flex flex-wrap px-2 py-2">
+                <div className="w-6/12 ">
+                  <div className="bg-gradient-primary rounded-bl-full rounded-tl-full   flex justify-center py-1">
+                    Playoff
+                  </div>
+                </div>
+                <div className="w-6/12">
+                  <div className="bg-color-switch-inside rounded-br-full rounded-tr-full   flex justify-center py-1">
+                    Playoff
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="w-3/12  h-screen fixed right-10  flex flex-col ">
             <div className=" ">

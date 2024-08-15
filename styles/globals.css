@@ -15,7 +15,20 @@
 
 
 @layer utilities {
-.container{
-  max-width: 90rem 
-}
+  .container {
+    max-width: 90rem
+  }
+
+  .bg-gradient-primary {
+    background-image: linear-gradient(139deg, #F1BB1C, #FF8D01);
+  }
+
+  .bg-color-switch-outside {
+    background-image: linear-gradient(to bottom, #2D353F, #222733);
+  }
+
+  .bg-color-switch-inside {
+    background-image: linear-gradient(to bottom, #222733, #2D353F);
+  }
+
 }
