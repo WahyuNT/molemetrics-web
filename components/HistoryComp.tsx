@@ -5,12 +5,12 @@ import MatchCard from "./MatchCard";
 export default function HistoryComp() {
   return (
     <div className=" ">
-    <div className="bg-navbar w-full rounded-lg p-4  ">
+    <div className="bg-navbar w-full rounded-xl p-4  ">
       History
       <form className="max-w-sm mx-auto mt-3">
         <select
           id="countries"
-          className="bg-selectFill text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          className="bg-selectFill text-white text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
         >
           <option selected>All Season</option>
           <option value="US">United States</option>
@@ -24,7 +24,7 @@ export default function HistoryComp() {
           <form className="max-w-sm mx-auto">
             <select
               id="countries"
-              className="bg-selectFill text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              className="bg-selectFill text-white text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             >
               <option selected>Select Team</option>
               <option value="US">United States</option>
@@ -41,7 +41,7 @@ export default function HistoryComp() {
           <form className="max-w-sm mx-auto">
             <select
               id="countries"
-              className="bg-selectFill text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              className="bg-selectFill text-white text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             >
               <option selected>Select Team</option>
               <option value="US">United States</option>
@@ -86,7 +86,7 @@ export default function HistoryComp() {
   </div>
 //   {/* <div className="  ">
 //     <img
-//       className="rounded-lg w-full p-3"
+//       className="rounded-xl w-full p-3"
 //       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQRguMvR6_wQDV9HotuzETswZkWCHWGh3Lg&s"
 //       alt=""
 //     />

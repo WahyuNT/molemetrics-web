@@ -30,7 +30,7 @@ export default function Home() {
         <div className="mx-auto container flex flex-wrap ">
           <div className="w-9/12 pe-9">
             <div className="gap-2 overflow-x-auto flex mt-3">
-              <button className="bg-gradient-primary px-5 c  py-2 rounded-xl">
+              <button className="bg-gradient-primary px-5 flex-none  py-2 rounded-xl">
                 Week 1
               </button>
               <button className="button-week-off px-5 flex-none  py-2 rounded-xl">
@@ -84,7 +84,9 @@ export default function Home() {
                 <div className="flex">
                   <div className="w-6/12">History</div>
                   <div className="w-6/12 flex justify-end gap-2 items-center">
-                    <div className="div"><i className="fa-solid fa-list"></i></div>
+                    <div className="div">
+                      <i className="fa-solid fa-list"></i>
+                    </div>
                     <div className="w-5/12 justify-end">
                       <button
                         id="dropdownDefaultButton2"
@@ -239,8 +241,10 @@ export default function Home() {
                   <div className="flex-none">
                     <MatchCard />
                   </div>
-           
+                  <div className="flex-none">
+                    <MatchCard />
                   </div>
+                </div>
               </div>
             </div>
             <div className=" mt-3">
