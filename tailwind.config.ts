@@ -19,6 +19,7 @@ const config: Config = {
         sidebar: "#0F172E",
         selectFill: "#1C2A51",
         match : "#1E2E5A",
+        matchFill : "#1A2541",
      
       },
     },
