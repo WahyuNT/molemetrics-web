@@ -23,6 +23,9 @@ const config: Config = {
         matchFill : "#1A2541",
         blueSecondary: "#1C2A51",
         blueThird: "#1A2541",
+        tableEven: "#1A2440",
+        tableOdd: "#1E2E5A",
+        table: "#1A2440",
      
       },
     },

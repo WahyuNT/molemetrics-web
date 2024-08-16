@@ -248,57 +248,56 @@ export default function Home() {
               </div>
             </div>
             <div className=" mt-3">
-              <div className="relative overflow-x-auto rounded-xl">
-                <table className="w-full bg text-sm text-left rtl:text-right text-gray-400 ">
-                  <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+                <table className="w-full text-sm text-left rtl:text-right text-white bg-table">
+                  <thead className="text-xs text-white uppercase bg-table ">
                     <tr>
                       <th scope="col" className="px-6 py-3">
-                        Product name
+                        No
                       </th>
                       <th scope="col" className="px-6 py-3">
-                        Color
+                        Team
                       </th>
                       <th scope="col" className="px-6 py-3">
-                        Category
+                        Match Point
                       </th>
                       <th scope="col" className="px-6 py-3">
-                        Price
+                        Match W-L
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        Net Game Win
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        Game W-L
                       </th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <tr className=" even:bg-tableEven odd:bg-tableOdd   ">
                       <th
                         scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                        className="px-6 py-4 font-medium  whitespace-nowrap text-white"
                       >
-                        Apple MacBook Pro 17"
+                        1
                       </th>
-                      <td className="px-6 py-4">Silver</td>
-                      <td className="px-6 py-4">Laptop</td>
-                      <td className="px-6 py-4">$2999</td>
+                      <td className="px-6 py-4">Fnatic Onic</td>
+                      <td className="px-6 py-4">2</td>
+                      <td className="px-6 py-4">2 - 0</td>
+                      <td className="px-6 py-4">3</td>
+                      <td className="px-6 py-4">4 - 1</td>
                     </tr>
-                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <tr className=" even:bg-tableEven odd:bg-tableOdd   ">
                       <th
                         scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                        className="px-6 py-4 font-medium  whitespace-nowrap text-white"
                       >
-                        Microsoft Surface Pro
+                        1
                       </th>
-                      <td className="px-6 py-4">White</td>
-                      <td className="px-6 py-4">Laptop PC</td>
-                      <td className="px-6 py-4">$1999</td>
-                    </tr>
-                    <tr className="bg-white dark:bg-gray-800">
-                      <th
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                      >
-                        Magic Mouse 2
-                      </th>
-                      <td className="px-6 py-4">Black</td>
-                      <td className="px-6 py-4">Accessories</td>
-                      <td className="px-6 py-4">$99</td>
+                      <td className="px-6 py-4">DEWA UNITED ESPORTS</td>
+                      <td className="px-6 py-4">2</td>
+                      <td className="px-6 py-4">2 - 0</td>
+                      <td className="px-6 py-4">3</td>
+                      <td className="px-6 py-4">4 - 1</td>
                     </tr>
                   </tbody>
                 </table>
